@@ -1,3 +1,4 @@
+## Implemented gDAC branch predictor and compared its performance with other built-in branch predictors in gem5.
 
 -- Download and copy the following files to the host machine
    1 SHIP_replacementpolicy_gem5_patchfile.patch
