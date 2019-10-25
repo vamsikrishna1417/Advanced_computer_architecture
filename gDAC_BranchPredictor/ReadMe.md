@@ -1,7 +1,4 @@
--- Download and copy the following files to the host machine
-   1 gDAC_gem5_patchfile.patch
-   2 readme.txt
-   3 report.pdf
+## Implemented global Divide-and-conquer (gDAC) branch predictor with a combination of ahead pipe-lining, history segmentation and prediction fusion. Also, implemented 1.5 bit counters instead of 2-bit counters for faster access times. Eventually, compared its performance with other built-in branch predictors in gem5.
 
 -- Testing the patch file
 The patch file is generated using the gem5-master source directory downloaded from dropbox and our modified gem5-master directory. To patch source with our patch file you need to change the path in the patch file or download the patch file to the path where your local gem5-master source directory is present and run the following command inside the directory:
